@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, make_response
 import logging as pylogging
+from prototipo import processar
 
 app = Flask(__name__)
 app.config["JSON_AS_ASCII"] = False
@@ -8,7 +9,8 @@ app.config["JSON_AS_ASCII"] = False
 
 @app.route('/teste', methods=['GET'])
 def teste():
-    resposta = make_response(jsonify({"mensagem": "Teste concluído com sucesso!"}))
+    payload = processar()
+    resposta = make_response(jsonify(payload))
     resposta.headers["Content-Type"] = "application/json; charset=utf-8"
     return resposta
 
