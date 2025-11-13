@@ -1,0 +1,11 @@
+{
+  "id_demanda": "TICKET-123-ABC",
+  "texto-original": "blablabla",
+  "categorias-disponiveis": [
+    "Demanda de Implantação",
+    "Demanda de Desenvolvimento",
+    "Demanda de Gerenciamento",
+    "etc"
+  ],
+  "url-callback": "https://sistema.cliente/resultado/{id_processamento}"
+}

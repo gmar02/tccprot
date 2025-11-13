@@ -1,0 +1,10 @@
+{
+  "id_demanda_cliente": "TICKET-123-ABC",
+  "id_processamento": "asd21398-201i1uib-23i1-nn-1",
+  "sumario": "<Texto original sumarizado aqui>",
+  "classificacao": {
+    "categoria_sugerida": "Demanda de Implantação",
+    "confiabilidade": 0.931
+  },
+  "status_processamento": "CONCLUIDO"
+}

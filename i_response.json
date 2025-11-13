@@ -1,0 +1,9 @@
+{
+  "id_processamento": "asd21398-201i1uib-23i1-nn-1",
+
+  "id_demanda_cliente": "TICKET-ABC-123",
+
+  "status": "EM_FILA",
+
+  "mensagem": "Demanda recebida e registrada. Seu processamento ocorrerá em breve."
+}
